@@ -1,12 +1,13 @@
 package com.raphaeldantas.agenda.modelo;
 
+import java.io.Serializable;
 import java.util.List;
 
 /**
  * Created by RAPHAELDantas on 24/08/2017.
  */
 
-public class Prova {
+public class Prova implements Serializable {
 
     private String materia;
     private String data;
