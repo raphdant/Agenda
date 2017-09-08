@@ -4,7 +4,6 @@
     tools:context="com.raphaeldantas.agenda.ListaAlunosActivity">
     <item
         android:id="@+id/menu_enviar_notas"
-        android:orderInCategory="100"
         android:title="@string/enviar_nota"
         android:icon="@drawable/ic_enviar"
         app:showAsAction="always" />
@@ -13,5 +12,11 @@
         android:id="@+id/menu_baixar_provas"
         android:title="Baixar provas"
         android:icon="@drawable/ic_receber"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_mapa"
+        android:title="Visualizar no mapa"
+        android:icon="@drawable/ic_mapa"
         app:showAsAction="always" />
 </menu>
